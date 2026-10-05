@@ -1,33 +1,29 @@
-# C Programming Basics & Control Structures
+# C Programming Laboratory Workspace
 
-A curated collection of introductory C programs covering fundamental concepts like data types, operator precedence, conditional branching, loops, and menu-driven applications.
+A collection of foundational C programming scripts and laboratory exercises covering data types, operators, control statements, and 1D/2D array operations.
 
----
+## Repository Contents
 
-## Program Index
-
-| File Name | Topic / Concept | Description |
+| File Name | Program Description | Key Concepts |
 | :--- | :--- | :--- |
-| *01.c* | Data Types & Input/Output | Handles standard input and output for int, float, double, char, and string data types. |
-| *02.c* | Basic Arithmetic Calculations | Calculates the area of a circle using user-defined radius input. |
-| *03.c* | Mathematical Operations | Calculates the average of three floating-point numbers. |
-| *04.c* | Variable Manipulation | Swaps the values of two variables using a temporary storage variable. |
-| *05.c* | Documentation Standards | Demonstrates single-line (//) and multi-line (/* */) code documentation. |
-| *06.c* | Operators & Precedence | Demonstrates arithmetic precedence, parenthetical operations, and logical AND (&&). |
-| *07.c* | Conditional Branching (if-else) | Checks whether a user-inputted integer is Even or Odd using the modulus operator (%). |
-| *08.c* | Multi-way Branching (else-if) | Determines if a number is Positive, Negative, or Zero. |
-| *09.c* | Menu-Driven Program (switch & do-while) | A console calculator performing addition, subtraction, multiplication, and division. |
-| *10.c* | Iterative Loops (for, while, do-while) | Generates multiplication tables using all three standard C looping constructs. |
-
----
+| 01_data_types.c | Demonstrates basic data types and formatting | Data Types, printf |
+| 02_circle_area.c | Calculates the area of a circle | Constants, Arithmetic |
+| 03_average_of_three.c | Computes average of three floating-point values | Inputs, Division |
+| 04_swap_variables.c | Swaps two numbers using temporary storage | Variable Assignment |
+| 05_comments_demo.c | Examples of single-line and multi-line comments | Code Documentation |
+| 06_operator_precedence.c | Illustrates operator evaluation order | Precedence, Associativity |
+| 07_even_or_odd.c | Checks if an integer is even or odd | Modulo Operator, if-else |
+| 08_positive_negative_zero.c | Classifies a number as positive, negative, or zero | Conditional Logic |
+| 09_calculator_menu.c | Interactive arithmetic calculator | switch-case Statements |
+| 10_multiplication_table.c | Generates multiplication tables | for Loops |
+| 11_array_memory_addresses.c | Reads values and displays element memory addresses | 1D Arrays, Pointers (%p) |
+| 12_array_sum.c | Calculates the sum of all elements in a 1D array | Array Traversal, Accumulation |
+| 13_matrix_addition.c | Performs element-wise addition of two 2D matrices | 2D Arrays, Nested Loops |
 
 ## Compilation & Execution
 
-To compile and run any of the programs locally using the GCC compiler, use the following terminal commands:
+To compile and execute any script using GCC:
 
 ```bash
-# Compile a specific file (e.g., Program 09)
-gcc 09.c -o calculator
-
-# Execute the compiled binary
-./calculator
+gcc filename.c -o program
+./program
